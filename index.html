@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/form.css"/>
+        <title>Awsome form</title>
+    </head>
+    <body>
+        <div class="contenedor_formulario">
+            <div class="wrap">
+                <form action="" method="post" class="formulario" name="formulario">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" required id="nombre" name="nombre"/>
+                            <label class="label" for="nombre">Nombre:</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" required id="email" name="email"/>
+                            <label class="label" for="email">Email:</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="password" required id="password" name="password"/>
+                            <label class="label" for="password">Clave:</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="password" required id="password2" name="password2"/>
+                            <label for="password2" class="label">Repetir Clave:</label>
+                        </div>
+
+                        <div class="input-group radio">
+                            <input type="radio" name="sexo" id="hombre"/>
+                            <label for="hombre">Hombre</label>
+
+                            <input type="radio" name="sexo" id="mujer"/>
+                            <label for="mujer">Mujer</label>
+
+                            <input type="radio" name="sexo" id="alien"/>
+                            <label for="alien">Alien</label>
+                        </div>
+                        <div class="input-group check">
+                            <input type="checkbox" name="terminos" value="true" id="terminos"/>
+                            <label for="terminos">Acepto los terminos y condiciones</label>
+                        </div>                   
+
+                        <input type="submit" value="Enviar" id="btnEnviar"/>
+                    </div>                
+                </form>
+            </div>
+        </div>
+        <script src="js/form.js"></script>
+    </body>
+</html> 
